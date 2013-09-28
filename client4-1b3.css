@@ -1,0 +1,43 @@
+div {
+	border: 2px solid black;
+}
+
+#button {
+	height:250px;
+	width: 250px;
+	background-color: purple;
+	position:absolute;
+	text-align: center;
+	top:35%;
+    left:40%;
+ 	color: white;
+ 	font-family: Helvetica;
+ 	border-radius: 150px;
+}
+
+#button p {
+	position: relative;
+	top: 30%;
+	font-size: 2em;
+}
+
+#popup {
+	background-color: skyblue;
+	position: fixed;
+	height: 400px;
+	width: 400px;
+	top: 50%;
+	left: 50%;
+	font-family: Helvetica;
+}
+
+.x {
+	float: right;
+	height: 20px;
+	width: 20px;
+	background-color: black;
+	color:white;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 1.3em;
+}
